@@ -1,0 +1,44 @@
+market_research:
+  description: >
+    进行关于市场趋势和目标受众的全面研究。
+    确保你找到任何有趣和相关的信息，因为当前年份是2024年。
+  expected_output: >
+    列出10个关于市场趋势和目标受众的最相关信息的要点。
+  tools: [search_tool]
+  agent: market_researcher
+
+content_strategy:
+  description: >
+    制定每周内容策略，包括标签、标题和发布时间。
+    确保内容策略基于最新的市场研究结果。
+  expected_output: >
+    一份详细的每周内容策略，包括每篇内容的标签、标题和发布时间。
+  tools: [search_tool]
+  agent: content_strategist
+
+seo_optimization:
+  description: >
+    优化每篇内容以提升搜索引擎排名。
+    确保内容对百度和小红书都有良好的SEO效果。
+  expected_output: >
+    每篇内容的SEO优化笔记，包含关键词、描述和优化建议。
+  tools: [search_tool]
+  agent: seo_specialist
+
+social_media_analysis:
+  description: >
+    分析最新的社交媒体趋势并将其整合到内容策略中。
+    确保内容策略包含流行标签和话题。
+  expected_output: >
+    包含流行标签和话题的详细内容策略。
+  tools: [search_tool]
+  agent: social_media_analyst
+
+image_description:
+  description: >
+    为每篇内容创建详细的图像描述。
+    确保描述能够准确传达图像的预期效果，以便用于图像生成模型。
+  expected_output: >
+    每篇内容的详细图像描述，包含图像的关键元素和主题。
+  tools: [ search_tool ]
+  agent: image_describer
